@@ -41,7 +41,7 @@ get the sonarqube public ip address
 publicIP:9000
 
 curl -v localhost:9000
-54.236.232.85:9000
+IP:9000
 default USERNAME: admin
 default password: admin
 
