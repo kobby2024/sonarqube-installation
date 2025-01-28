@@ -24,8 +24,8 @@ sudo yum install  java-11-openjdk-devel -y
 #  Download and extract the SonarqQube Server software.
 sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-25.1.0.102122.zip
 sudo unzip sonarqube-25.1.0.102122.zip
-sudo rm -rf sonarqube-25.1.zip
-sudo mv sonarqube-25.1 sonarqube
+sudo rm -rf sonarqube-25.1.0.102122.zip
+sudo mv sonarqube-25.1.0.102122 sonarqube
 
 # Grant file permissions for sonar user to start and manage sonarQube
 sudo chown -R sonar:sonar /opt/sonarqube/
